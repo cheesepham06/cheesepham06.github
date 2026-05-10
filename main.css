@@ -1,13 +1,14 @@
 :root {
     /* Colors
     ____________________*/
-    :root {
-    --gradient-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --color-bg-primary: #667eea;
-    --color-bg-secondary: rgba(255, 255, 255, 0.15); /* Thẻ kính mờ */
+    --color-primary: #25ab75;
+    --color-primary-dark: #208c61;
+    --color-bg-primary: #1a1a1a;
+    --color-bg-secondary: #242424;
+    --color-bg-footer: #151515;
     --color-white: #ffffff;
-    --color-text: #e0e0e0; /* Chữ xám nhạt cho dễ đọc */
-    --color-primary: #a18cd1;
+    --color-text: #676767;
+    --color-border: #373737;
   
     /* Font & Typography
     ___________________*/
@@ -92,13 +93,13 @@
   }
   
   body {
-    background: var(--gradient-bg) !important; 
-    background-attachment: fixed;
-    min-height: 100vh;
+    background-color: var(--color-bg-primary);
     font-family: var(--ff-body);
-    color: var(--color-white);
+    font-size: var(--fs-md);
+    color: var(--color-text);
     margin-top: var(--height-header);
-}
+    line-height: 1.2;
+  }
   
   /* Reusable CSS
   --------------------------------------------------------------*/
@@ -175,11 +176,18 @@
   /* Header
   --------------------------------------------------------------*/
   .header {
-      .header {
-    background-color: rgba(0, 0, 0, 0.3) !important; /* Đen trong suốt 30% */
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
+    background-color: var(--color-bg-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: var(--height-header);
+    z-index: var(--zindex-menu);
+    transition: var(--transition);
+  }
+  
   .header--scroll {
     height: var(--height-header--scroll);
     box-shadow: var(--box-shadow);
@@ -736,3 +744,4 @@
     .footer__wrapper {
       grid-template-columns: repeat(3, 1fr);
     }
+  }
