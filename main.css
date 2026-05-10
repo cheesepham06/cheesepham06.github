@@ -1,18 +1,18 @@
 :root {
     /* Colors
     ____________________*/
-    --color-primary: #25ab75;
-    --color-primary-dark: #208c61;
-    --color-bg-primary: #1a1a1a;
-    --color-bg-secondary: #242424;
-    --color-bg-footer: #151515;
+    --color-primary: #f8b5c1;
+    --color-primary-dark: #f8d0d2;
+    --color-bg-primary: #ef2f8;
+    --color-bg-secondary: #ffc0cb;
+    --color-bg-footer: #f5dadf;
     --color-white: #ffffff;
-    --color-text: #676767;
-    --color-border: #373737;
+    --color-text: #ff8195;
+    --color-border: #faf2e8;
   
     /* Font & Typography
     ___________________*/
-    --ff-body: "Space Grotesk", sans-serif;
+    --ff-body: Georgia, 'Helvetica, serif;;
     /* font sizes */
     --fs-sm: 1.4rem;
     --fs-md: 1.6rem;
@@ -98,7 +98,7 @@
     font-size: var(--fs-md);
     color: var(--color-text);
     margin-top: var(--height-header);
-    line-height: 1.2;
+    line-height: 1.5;
   }
   
   /* Reusable CSS
