@@ -1,18 +1,18 @@
 :root {
     /* Colors
     ____________________*/
-    --color-primary: #f8b5c1;
-    --color-primary-dark: #f8d0d2;
-    --color-bg-primary: #ef2f8;
-    --color-bg-secondary: #ffc0cb;
+    --color-primary: #ff8195;
+    --color-primary-dark: #f9688d;
+    --color-bg-primary: #faf2e8;
+    --color-bg-secondary: #fđ5c8;
     --color-bg-footer: #f5dadf;
-    --color-white: #ffffff;
-    --color-text: #ff8195;
-    --color-border: #faf2e8;
+    --color-white: #f9476c;
+    --color-text: #ff94ab;
+    --color-border: #f8d0d2;
   
     /* Font & Typography
     ___________________*/
-    --ff-body: Georgia, 'Helvetica, serif;;
+   --ff-body: "Space Grotesk", sans-serif;
     /* font sizes */
     --fs-sm: 1.4rem;
     --fs-md: 1.6rem;
